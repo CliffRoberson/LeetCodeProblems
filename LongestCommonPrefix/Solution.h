@@ -4,7 +4,10 @@ class Solution {
 public:
 	string longestCommonPrefix(vector<string>& strs) 
 	{
-		
+		if (strs.size() == 0)
+		{
+			return "";
+		}
 
 		ostringstream os;
 		string prefix = os.str();
