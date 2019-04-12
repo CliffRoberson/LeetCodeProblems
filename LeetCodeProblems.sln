@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RomanToInteger", "RomanToIn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.vcxproj", "{6AEB3EFA-25A2-40F8-8E89-0503A95486A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ValidParentheses", "ValidParentheses\ValidParentheses.vcxproj", "{31EDA355-50B8-487D-89C3-19D2D9570CC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{6AEB3EFA-25A2-40F8-8E89-0503A95486A2}.Release|x64.Build.0 = Release|x64
 		{6AEB3EFA-25A2-40F8-8E89-0503A95486A2}.Release|x86.ActiveCfg = Release|Win32
 		{6AEB3EFA-25A2-40F8-8E89-0503A95486A2}.Release|x86.Build.0 = Release|Win32
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Debug|x64.ActiveCfg = Debug|x64
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Debug|x64.Build.0 = Debug|x64
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Debug|x86.Build.0 = Debug|Win32
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Release|x64.ActiveCfg = Release|x64
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Release|x64.Build.0 = Release|x64
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Release|x86.ActiveCfg = Release|Win32
+		{31EDA355-50B8-487D-89C3-19D2D9570CC0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

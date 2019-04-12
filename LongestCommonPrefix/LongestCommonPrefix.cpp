@@ -1,7 +1,7 @@
 #pragma once
 #include "pch.h"
 #include <iostream>
-#include "Solution.h"
+#include "LongestCommonPrefix.h"
 
 
 int main()

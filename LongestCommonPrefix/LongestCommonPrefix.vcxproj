@@ -152,7 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Solution.h" />
+    <ClInclude Include="LongestCommonPrefix.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LongestCommonPrefix.cpp" />
