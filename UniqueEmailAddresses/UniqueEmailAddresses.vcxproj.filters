@@ -18,7 +18,7 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ToLowerCase.h">
+    <ClInclude Include="numUniqueEmails.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,7 +26,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ToLowerCase.cpp">
+    <ClCompile Include="numUniqueEmails.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
