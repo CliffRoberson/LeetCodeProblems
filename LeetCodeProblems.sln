@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SquaresOfASortedArray", "Sq
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxIncreaseTOKeepCitySkyline", "MaxIncreaseTOKeepCitySkyline\MaxIncreaseTOKeepCitySkyline.vcxproj", "{DDA84B7D-D7EC-4C7D-9130-FF39D21CD78A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EncodeAndDecodeTinyURL", "EncodeAndDecodeTinyURL\EncodeAndDecodeTinyURL.vcxproj", "{5E2B1456-52F5-4797-9892-986156AFF373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{DDA84B7D-D7EC-4C7D-9130-FF39D21CD78A}.Release|x64.Build.0 = Release|x64
 		{DDA84B7D-D7EC-4C7D-9130-FF39D21CD78A}.Release|x86.ActiveCfg = Release|Win32
 		{DDA84B7D-D7EC-4C7D-9130-FF39D21CD78A}.Release|x86.Build.0 = Release|Win32
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Debug|x64.ActiveCfg = Debug|x64
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Debug|x64.Build.0 = Debug|x64
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Debug|x86.Build.0 = Debug|Win32
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Release|x64.ActiveCfg = Release|x64
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Release|x64.Build.0 = Release|x64
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Release|x86.ActiveCfg = Release|Win32
+		{5E2B1456-52F5-4797-9892-986156AFF373}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
