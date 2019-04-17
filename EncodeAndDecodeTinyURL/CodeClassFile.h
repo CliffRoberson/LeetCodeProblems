@@ -1,53 +1,31 @@
 #pragma once
 
 #include "../std_lib_facilities.h"
-#include <bitset>
+#include <map>
 
 class Solution {
 public:
+	map<int, string> urls;
+	int numOfURLs = 0;
 
-	// Encodes a URL to a shortened URL.
 	string encode(string longUrl) 
 	{
-		string binary = asciiToBinary(longUrl);
-		string shortURL = shortenBinary(binary);
-		return shortURL;
+		urls[numOfURLs] = longUrl;
+		string encodedURL = "http://tinyurl.com/" + to_string(numOfURLs);
+		numOfURLs++;
+
+		return encodedURL;
 	}
 
-	string shortenBinary(string binary)
-	{
-		int count = 0;
-		f
-	}
-
-	string asciiToBinary(string ascii)
-	{
-		string output;
-		for (char symbol : ascii)
-		{
-			char buffer[33];
-			_itoa_s(symbol, buffer, 2);
-			output += buffer;
-		}
-	}
-
-	string binaryToAscii(string binary)
-	{
-		std::stringstream sstream(binary);
-		std::string output;
-		while (sstream.good())
-		{
-			std::bitset<8> bits;
-			sstream >> bits;
-			char c = char(bits.to_ulong());
-			output += c;
-		}
-		return output;
-	}
 
 	// Decodes a shortened URL to its original URL.
-	string decode(string shortUrl) {
+	string decode(string shortUrl) 
+	{
+		int found = shortUrl.find_last_of('/');
+		string number = shortUrl.substr(found + 1);
+		int urlNum = stoi(number);
 
+		return urls[urlNum];
 	}
 };
 

@@ -4,8 +4,17 @@
 
 int main()
 {
-	string input = "foobar";
-	if (Solution().decode(Solution().encode(input)) == input )
+	string input = "https://leetcode.com/problems/design-tinyurl";
+	cout << "input: " << input << endl;
+
+	Solution sol = Solution();
+	string encoding = sol.encode(input);
+	cout << encoding << endl;
+	string decoding = sol.decode(encoding);
+	cout << decoding << endl;
+		
+
+	if (input == decoding )
 	{
 		cout << "Test 1 OK";
 	}
