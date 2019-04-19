@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EncodeAndDecodeTinyURL", "E
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaximumBinaryTree", "MaximumBinaryTree\MaximumBinaryTree.vcxproj", "{EB879860-D46A-4BE7-8209-C10A82DCF468}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsertIntoABinarySearchTree", "InsertIntoABinarySearchTree\InsertIntoABinarySearchTree.vcxproj", "{22AAD266-9EBD-440C-B78F-95488F09A813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{EB879860-D46A-4BE7-8209-C10A82DCF468}.Release|x64.Build.0 = Release|x64
 		{EB879860-D46A-4BE7-8209-C10A82DCF468}.Release|x86.ActiveCfg = Release|Win32
 		{EB879860-D46A-4BE7-8209-C10A82DCF468}.Release|x86.Build.0 = Release|Win32
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Debug|x64.ActiveCfg = Debug|x64
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Debug|x64.Build.0 = Debug|x64
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Debug|x86.ActiveCfg = Debug|Win32
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Debug|x86.Build.0 = Debug|Win32
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Release|x64.ActiveCfg = Release|x64
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Release|x64.Build.0 = Release|x64
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Release|x86.ActiveCfg = Release|Win32
+		{22AAD266-9EBD-440C-B78F-95488F09A813}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
