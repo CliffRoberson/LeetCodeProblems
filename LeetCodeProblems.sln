@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PeakIndexInMountainArray", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeleteColumnsToMakeSorted", "DeleteColumnsToMakeSorted\DeleteColumnsToMakeSorted.vcxproj", "{66DBDA61-0C09-43C6-933B-578DEB74FA3C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberOfRecentCalls", "NumberOfRecentCalls\NumberOfRecentCalls.vcxproj", "{73A0A084-EE2A-477D-9DED-86FF09CE007E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{66DBDA61-0C09-43C6-933B-578DEB74FA3C}.Release|x64.Build.0 = Release|x64
 		{66DBDA61-0C09-43C6-933B-578DEB74FA3C}.Release|x86.ActiveCfg = Release|Win32
 		{66DBDA61-0C09-43C6-933B-578DEB74FA3C}.Release|x86.Build.0 = Release|Win32
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Debug|x64.ActiveCfg = Debug|x64
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Debug|x64.Build.0 = Debug|x64
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Debug|x86.ActiveCfg = Debug|Win32
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Debug|x86.Build.0 = Debug|Win32
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Release|x64.ActiveCfg = Release|x64
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Release|x64.Build.0 = Release|x64
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Release|x86.ActiveCfg = Release|Win32
+		{73A0A084-EE2A-477D-9DED-86FF09CE007E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
