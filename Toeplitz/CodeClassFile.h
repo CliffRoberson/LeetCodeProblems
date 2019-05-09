@@ -2,6 +2,8 @@
 
 #include "../std_lib_facilities.h"
 
+//shifted matrix then compared rows:
+//https://stackoverflow.com/a/1779318
 class Solution {
 public:
 	bool isToeplitzMatrix(vector<vector<int>>& matrix) 
