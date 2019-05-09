@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NonDecreasingArray", "NonDe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignLinkedList", "DesignLinkedList\DesignLinkedList.vcxproj", "{3853B86C-5FBB-434D-87B5-BABAA8030F15}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Toeplitz", "Toeplitz\Toeplitz.vcxproj", "{4DA2FC75-65CF-421D-AF69-C12888600232}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -611,6 +613,14 @@ Global
 		{3853B86C-5FBB-434D-87B5-BABAA8030F15}.Release|x64.Build.0 = Release|x64
 		{3853B86C-5FBB-434D-87B5-BABAA8030F15}.Release|x86.ActiveCfg = Release|Win32
 		{3853B86C-5FBB-434D-87B5-BABAA8030F15}.Release|x86.Build.0 = Release|Win32
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Debug|x64.ActiveCfg = Debug|x64
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Debug|x64.Build.0 = Debug|x64
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Debug|x86.Build.0 = Debug|Win32
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Release|x64.ActiveCfg = Release|x64
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Release|x64.Build.0 = Release|x64
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Release|x86.ActiveCfg = Release|Win32
+		{4DA2FC75-65CF-421D-AF69-C12888600232}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
