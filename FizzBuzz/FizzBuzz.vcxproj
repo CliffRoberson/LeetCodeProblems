@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{574b8357-a0b5-4553-9c75-9eb14a4c45fc}</ProjectGuid>
+    <ProjectGuid>{63bd21f3-1363-4aa9-b8ad-e4660060a27d}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>availableCapturesForRook</RootNamespace>
+    <RootNamespace>FizzBuzz</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>AvailableCapturesForRook</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

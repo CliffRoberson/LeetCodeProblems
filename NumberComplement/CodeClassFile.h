@@ -7,7 +7,7 @@ class Solution {
 public:
 
 
-	string toBinary(int num)
+	string toBinaryFlipDigits(int num)
 	{
 		stack<int> s;
 		while (num > 0)
@@ -29,7 +29,7 @@ public:
 
 	int findComplement(int num) 
 	{
-		string bin = toBinary(num);
+		string bin = toBinaryFlipDigits(num);
 		return stoi(bin,nullptr,2);
 	}
 };

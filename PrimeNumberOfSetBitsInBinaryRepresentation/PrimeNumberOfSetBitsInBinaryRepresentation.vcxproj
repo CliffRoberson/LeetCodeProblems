@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{574b8357-a0b5-4553-9c75-9eb14a4c45fc}</ProjectGuid>
+    <ProjectGuid>{e686d3c6-4430-492f-9f8a-2f0972000299}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>availableCapturesForRook</RootNamespace>
+    <RootNamespace>PrimeNumberOfSetBitsInBinaryRepresentation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>AvailableCapturesForRook</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
