@@ -133,6 +133,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryGap", "BinaryGap\Bina
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeNumberOfSetBitsInBinaryRepresentation", "PrimeNumberOfSetBitsInBinaryRepresentation\PrimeNumberOfSetBitsInBinaryRepresentation.vcxproj", "{E686D3C6-4430-492F-9F8A-2F0972000299}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UncommonWordsFromTwoSentences", "UncommonWordsFromTwoSentences\UncommonWordsFromTwoSentences.vcxproj", "{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -661,6 +663,14 @@ Global
 		{E686D3C6-4430-492F-9F8A-2F0972000299}.Release|x64.Build.0 = Release|x64
 		{E686D3C6-4430-492F-9F8A-2F0972000299}.Release|x86.ActiveCfg = Release|Win32
 		{E686D3C6-4430-492F-9F8A-2F0972000299}.Release|x86.Build.0 = Release|Win32
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Debug|x64.ActiveCfg = Debug|x64
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Debug|x64.Build.0 = Debug|x64
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Debug|x86.Build.0 = Debug|Win32
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Release|x64.ActiveCfg = Release|x64
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Release|x64.Build.0 = Release|x64
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Release|x86.ActiveCfg = Release|Win32
+		{AB9B6172-DF45-4FD4-ADAF-FEB5C2B555FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
