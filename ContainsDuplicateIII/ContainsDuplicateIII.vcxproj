@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{c6015f31-e209-4c03-9417-ff9c901401a4}</ProjectGuid>
+    <ProjectGuid>{1e9e0f53-ec2a-452b-a1fb-6b0255e60fa6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>PermutationsHelper</RootNamespace>
+    <RootNamespace>ContainsDuplicateIII</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>CombinationsHelper</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

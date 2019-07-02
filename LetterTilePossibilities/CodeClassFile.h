@@ -1,26 +1,34 @@
 #pragma once
 
 #include "../std_lib_facilities.h"
+#include <set>
+#include <bitset>
 
 class Solution {
 public:
 	int numTilePossibilities(string tiles) 
 	{
-		int n = tiles.size();
+		set<string> output;
 
-		int count = 0;
+		int maxPermutations = pow(2, tiles.size());
 
-		int max = pow(2, n);
-		for (int i = 0; i < max; i++)
+		for (int i = 0; i < maxPermutations; i++)
 		{
-			vector<int> permutation;
-			int intToStoreAsBinary = i;
-			for (int i = 0; i < n; i++)
-			{
-				permutation.push_back((intToStoreAsBinary >> i) & 1);
+			bitset<7> bits(i);
+				
+			string aPermutation;
+			for (int k = 0; k < tiles.size(); k++)
+			{				
+				if (bits[k] == 1)
+				{
+					aPermutation += tiles[k];
+				}
 			}
-			reverse(permutation.begin(), permutation.end());
-			permutations.push_back(permutation);
+			
+			if (aPermutation.size() > 0)
+				output.insert(aPermutation);
+						
 		}
+		return output.size();
 	}
 };
