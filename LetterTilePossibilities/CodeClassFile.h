@@ -9,26 +9,28 @@ public:
 	int numTilePossibilities(string tiles) 
 	{
 		set<string> output;
-
 		int maxPermutations = pow(2, tiles.size());
+		sort(tiles.begin(), tiles.end());
 
-		for (int i = 0; i < maxPermutations; i++)
-		{
-			bitset<7> bits(i);
-				
-			string aPermutation;
-			for (int k = 0; k < tiles.size(); k++)
-			{				
-				if (bits[k] == 1)
+		do {
+			for (int i = 0; i < maxPermutations; i++)
+			{
+				bitset<7> bits(i);
+
+				string aPermutation;
+				for (int k = 0; k < tiles.size(); k++)
 				{
-					aPermutation += tiles[k];
+					if (bits[k] == 1)
+					{
+						aPermutation += tiles[k];
+					}
 				}
+
+				if (aPermutation.size() > 0)
+					output.insert(aPermutation);
 			}
-			
-			if (aPermutation.size() > 0)
-				output.insert(aPermutation);
-						
-		}
+		} while (next_permutation(tiles.begin(), tiles.end()));
+				
 		return output.size();
 	}
 };

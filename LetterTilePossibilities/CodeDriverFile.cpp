@@ -4,7 +4,7 @@
 
 int main()
 {
-	Solution().numTilePossibilities("AAB");
+	Solution().numTilePossibilities("DB");
 }
 
 
