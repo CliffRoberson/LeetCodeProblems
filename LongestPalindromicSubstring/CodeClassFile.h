@@ -19,6 +19,9 @@ public:
 			for (int k = i; k < s.size(); k++)
 			{
 				cur += s[k];
+				if (k - i < maxS.size())
+					continue;
+				
 				if (is_palindrome(cur) && cur.size() > maxS.size())
 					maxS = cur;
 			}

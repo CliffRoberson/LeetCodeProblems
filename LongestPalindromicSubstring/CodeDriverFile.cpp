@@ -4,14 +4,7 @@
 
 int main()
 {
-	if (Solution(). == )
-	{
-		cout << "Test 1 OK";
-	}
-	else
-	{
-		cout << "Test 1 FAIL";
-	}
+	Solution().longestPalindrome("cbbd");
 	cout << endl;
 }
 
